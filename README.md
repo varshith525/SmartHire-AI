@@ -1,161 +1,233 @@
 # 🚀 SmartHire AI – Intelligent Resume Screening System
 
-SmartHire AI is an AI-powered recruitment platform that streamlines the hiring process by automating resume screening, candidate evaluation, and recruitment analytics. Built using React.js, Flask, Python, SQLite, and Generative AI, the platform helps recruiters identify the best candidates through intelligent resume parsing, AI-driven insights, and interactive dashboards.
+SmartHire AI is a modern AI-powered recruitment platform designed to simplify and accelerate the hiring process. The application enables recruiters to upload resumes, analyze candidate profiles, compare applicants, and generate AI-driven hiring insights through an intuitive and interactive dashboard.
 
-![SmartHire AI](https://img.shields.io/badge/AI-Powered-blue)
-![React](https://img.shields.io/badge/React-18.2.0-61dafb)
-![Flask](https://img.shields.io/badge/Flask-2.3.3-green)
-![Python](https://img.shields.io/badge/Python-3.11-yellow)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.0-38bdf8)
+Built with **React.js**, **Flask**, **Python**, **SQLite**, **REST APIs**, and **Google Gemini AI**, SmartHire AI combines intelligent resume parsing, candidate scoring, recruitment analytics, and HR assistance into a single platform that improves hiring efficiency and supports data-driven recruitment decisions.
 
----
-
-## ✨ Features
-
-### 🎯 Core Features
-- 📄 Upload and analyze resumes in **PDF** and **DOCX** formats.
-- 🤖 AI-powered resume parsing and intelligent candidate evaluation.
-- 📊 Automatic candidate scoring and ranking based on skills and experience.
-- 👥 Interactive dashboard for managing applicants.
-- 💬 AI-powered HR Assistant for recruitment-related queries.
-- 📈 Candidate analytics, filtering, and comparison tools.
-
-### 🛡️ Smart Recruitment
-- Bias-aware candidate evaluation.
-- Resume anonymization for fair hiring.
-- Candidate comparison dashboard.
-- AI-generated hiring recommendations.
-- Interactive recruitment analytics.
-
-### 🎨 Modern User Interface
-- Responsive design for desktop and mobile.
-- Smooth animations using Framer Motion.
-- Interactive dashboards and charts.
-- Clean and intuitive user experience.
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-2.3.3-black?logo=flask)
+![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.0-38B2AC?logo=tailwindcss)
+![Gemini AI](https://img.shields.io/badge/Google-Gemini_AI-4285F4?logo=google)
 
 ---
 
-# 🏗️ Tech Stack
+# 📌 Project Overview
 
-## Frontend
+Recruitment teams spend significant time reviewing resumes, identifying qualified candidates, and comparing applicants manually. SmartHire AI addresses this challenge by automating resume screening using Artificial Intelligence, providing recruiters with meaningful insights and candidate recommendations.
+
+The platform extracts candidate information from uploaded resumes, evaluates skills and experience, generates AI-based summaries, detects potential recruitment bias, and presents interactive analytics through a responsive web interface.
+
+---
+
+# ✨ Key Features
+
+## 📄 Resume Management
+- Upload resumes in PDF and DOCX formats
+- Automatic resume parsing
+- Secure document processing
+- Candidate profile creation
+- Resume storage and management
+
+## 🤖 AI-Powered Candidate Analysis
+- AI-generated candidate summaries
+- Intelligent resume screening
+- Candidate scoring and ranking
+- Skills extraction
+- Experience analysis
+- Hiring recommendations
+- Resume matching with job requirements
+
+## 👥 Candidate Management
+- Candidate dashboard
+- Candidate search
+- Candidate filtering
+- Candidate comparison
+- Candidate profile view
+- Recruitment tracking
+
+## 📊 Analytics Dashboard
+- Recruitment analytics
+- Candidate statistics
+- Hiring trends
+- Skill distribution
+- Qualification analysis
+- Interactive charts
+- Real-time insights
+
+## 💬 HR Assistant
+- AI-powered HR chatbot
+- Recruitment-related queries
+- Candidate recommendations
+- Hiring guidance
+- Interview preparation support
+
+## 🛡 Fair Recruitment
+- Resume anonymization
+- Bias detection
+- Fair candidate evaluation
+- Ethical AI recommendations
+
+---
+
+# 🎨 User Interface
+
+SmartHire AI provides a modern and responsive interface featuring:
+
+- Interactive dashboards
+- Responsive layouts
+- Smooth page transitions
+- Modern card-based design
+- Beautiful animations using Framer Motion
+- Mobile-friendly interface
+- Easy navigation
+- Professional color themes
+
+---
+
+# 🏗 System Architecture
+
+The project follows a client-server architecture.
+
+Frontend
+
 - React.js
 - Tailwind CSS
 - Axios
 - React Router
 - Framer Motion
 
+Backend
+
+- Flask
+- Python
+- REST APIs
+- SQLite Database
+
+AI Services
+
+- Google Gemini AI
+- Resume Parser
+- Candidate Recommendation Engine
+- Bias Detection Module
+
+---
+
+# 💻 Technology Stack
+
+## Frontend
+
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Tailwind CSS
+- Axios
+- React Router
+- Framer Motion
+
 ## Backend
+
 - Python
 - Flask
 - REST APIs
 - SQLite
+- PyPDF2
+- python-docx
 
-## AI & Data Processing
-- Gemini AI
+## AI Technologies
+
+- Google Gemini AI
+- Natural Language Processing
 - Resume Parsing
-- Candidate Scoring
-- Bias Detection
+- Candidate Ranking
+- AI-based Recommendations
 
 ---
 
-# 🚀 Key Modules
+# 🚀 Major Modules
 
-- Resume Upload & Parsing
-- AI Resume Analysis
-- Candidate Dashboard
-- HR Assistant
+- Landing Page
+- Dashboard
+- Resume Upload
+- Candidate Management
 - Candidate Comparison
-- Recruitment Analytics
+- HR Assistant
+- Analytics Dashboard
 - Bias Detection
-- Interview Recommendation
+- AI Insights
+- Smart Recommendations
+- Interview Scheduler
+- Collaboration Module
 
 ---
 
-# 💡 Highlights
+# 🎯 Objectives
 
-- AI-powered recruitment automation.
-- Intelligent resume screening and ranking.
-- Real-time candidate analytics.
-- REST API architecture.
-- Responsive modern UI.
-- Scalable Flask backend.
-- Clean modular codebase.
+- Reduce manual resume screening time
+- Improve hiring efficiency
+- Enable AI-assisted recruitment
+- Support fair hiring practices
+- Provide data-driven hiring insights
+- Simplify recruiter workflows
+- Deliver intelligent candidate recommendations
+
+---
+
+# ⭐ Project Highlights
+
+- AI-powered recruitment platform
+- Intelligent resume parsing
+- Candidate ranking system
+- Resume comparison
+- RESTful API architecture
+- Responsive web application
+- Modern UI/UX
+- Interactive analytics dashboard
+- Modular backend
+- Scalable application design
 
 ---
 
 # 📂 Project Structure
 
-```
-SmartHire-AI/
+```text
+SmartHire-AI
 │
-├── frontend/        # React Application
-├── backend/         # Flask REST APIs
-├── docu/            # Documentation
+├── backend
+│   ├── app.py
+│   ├── services
+│   ├── requirements.txt
+│   └── uploads
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── components
+│
+├── docu
+│
 ├── README.md
+│
 └── render.yaml
 ```
 
 ---
 
-# ⚙️ Installation
+# 📷 Screenshots
 
-## Clone Repository
+> Add screenshots after deployment.
 
-```bash
-git clone https://github.com/varshith525/SmartHire-AI.git
-cd SmartHire-AI
-```
-
-### Backend
-
-```bash
-cd backend
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# macOS/Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
-
-python app.py
-```
-
-### Frontend
-
-```bash
-cd frontend
-
-npm install
-
-npm start
-```
-
----
-
-# 🔧 Environment Variables
-
-Create a `.env` file inside the backend folder.
-
-```env
-GEMINI_API_KEY=YOUR_API_KEY
-FLASK_ENV=development
-DATABASE_URL=sqlite:///resume_screener.db
-```
-
----
-
-# 📈 Future Improvements
-
-- ATS Integration
-- Authentication & Authorization
-- Email Notifications
-- Bulk Resume Upload
-- Interview Scheduling
-- Cloud Database Support
-- Multi-language Resume Analysis
+- Landing Page
+- Dashboard
+- Resume Upload
+- Candidate Analytics
+- Candidate Comparison
+- HR Assistant
+- Bias Detection
+- Smart Recommendations
 
 ---
 
@@ -163,9 +235,14 @@ DATABASE_URL=sqlite:///resume_screener.db
 
 **Bupana Varshith**
 
-- GitHub: https://github.com/varshith525
-- LinkedIn: *(Add your LinkedIn profile)*
+🎓 B.Tech – Computer Science & Engineering
+
+🔗 GitHub  
+https://github.com/varshith525
+
+💼 LinkedIn  
+https://www.linkedin.com/in/varshith-bupana-04692825b/
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a star!
+## ⭐ If you like this project, don't forget to Star the repository!
